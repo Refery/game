@@ -9,6 +9,9 @@ gem 'rails', '3.2.13'
 gem 'authlogic'
 gem 'haml'
 gem 'pg'
+gem 'json'
+gem 'eventmachine'
+gem 'juggernaut'
 
 
 # Gems used only for assets and not required

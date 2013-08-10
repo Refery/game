@@ -1,4 +1,12 @@
 Game::Application.routes.draw do
+
+  root to: 'users#index'
+  get 'users/index'
+
+  post 'users/', to: 'users#login'
+
+  get 'users/reset_password'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

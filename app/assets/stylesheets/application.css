@@ -11,3 +11,30 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+div.login {
+    color: #d2ff00;
+    background-color: #4e345f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: table;
+}
+
+div.login span{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+input[type=submit]{
+    width: 220px;
+}
+
